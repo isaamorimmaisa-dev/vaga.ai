@@ -218,7 +218,7 @@ Retorne APENAS o JSON atualizado do currículo, sem explicações.`
             </div>
           </div>
 
-          {/* PAINEL DA IA */}
+         <div id="ai-panel" style={{ width: '320px', background: '#13131A'...
           <div style={{ width: '320px', background: '#13131A', borderLeft: '1px solid #1E1E2E', display: 'flex', flexDirection: 'column' }}>
             <div style={{ padding: '1.5rem', borderBottom: '1px solid #1E1E2E' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
@@ -261,6 +261,11 @@ Retorne APENAS o JSON atualizado do currículo, sem explicações.`
 
       <style>{`
         @media print {
+  nav, .no-print, #ai-panel { display: none !important; }
+  body { background: white !important; margin: 0 !important; }
+  #resume-print { box-shadow: none !important; width: 100% !important; margin: 0 !important; }
+  * { -webkit-print-color-adjust: exact; }
+}
           nav, .no-print { display: none !important; }
           body { background: white !important; }
           #resume-print { box-shadow: none !important; width: 100% !important; }
