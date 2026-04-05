@@ -66,7 +66,6 @@ export default function Home() {
         <div style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: '1.5rem', letterSpacing: '-0.02em' }}>Vaga<span style={{ color: '#C8FA5F' }}>.ai</span></div>
         <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
           <a href="#como-funciona" style={{ color: '#7A7A8A', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 500 }}>Como funciona</a>
-          <a href="#como-funciona" style={{ color: '#7A7A8A', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 500 }}>Como funciona</a>
 <a href="/precos" style={{ color: '#7A7A8A', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 500 }}>Preços</a>
 <a href="#faq" style={{ color: '#7A7A8A', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 500 }}>FAQ</a>
 <a href="/chat" style={{ color: '#7A7A8A', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 500 }}>Chat IA</a>
