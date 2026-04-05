@@ -46,7 +46,7 @@ export default function PrecosPage() {
           <div style={{ background: 'rgba(200,250,95,0.04)', border: '1px solid rgba(200,250,95,0.3)', borderRadius: '20px', padding: '2rem', textAlign: 'left', position: 'relative' }}>
             <div style={{ position: 'absolute', top: '-12px', left: '50%', transform: 'translateX(-50%)', background: '#C8FA5F', color: '#0A0A0F', fontSize: '0.7rem', fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', padding: '0.3rem 0.9rem', borderRadius: '100px' }}>Mais popular</div>
             <div style={{ fontSize: '0.8rem', fontWeight: 700, color: '#C8FA5F', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '1rem' }}>Pro</div>
-            <div style={{ fontSize: '3rem', fontWeight: 800, lineHeight: 1, marginBottom: '0.25rem', color: '#C8FA5F' }}>R$49</div>
+            <div style={{ fontSize: '3rem', fontWeight: 800, lineHeight: 1, marginBottom: '0.25rem', color: '#C8FA5F' }}>R$15</div>
             <div style={{ color: '#7A7A8A', fontSize: '0.85rem', marginBottom: '2rem' }}>/mes - cancele quando quiser</div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', marginBottom: '2rem' }}>
               {['Curriculos ilimitados', 'Chat IA sem limites', 'Cartas de apresentacao', 'Prep de entrevistas', 'Traducao de documentos', 'Otimizacao ATS'].map(f => (

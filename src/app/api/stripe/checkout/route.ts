@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
           name: 'Vaga.ai Pro',
           description: 'Currículos ilimitados, Chat IA sem limites, Cartas de apresentação',
         },
-        unit_amount: 4900,
+        unit_amount: 1500,
         recurring: { interval: 'month' },
       },
       quantity: 1,
