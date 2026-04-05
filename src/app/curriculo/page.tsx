@@ -64,7 +64,17 @@ Retorne APENAS o JSON atualizado do currículo, sem explicações.`
       <nav style={{ padding: '1rem 2rem', borderBottom: '1px solid #1E1E2E', display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: '#0A0A0F', position: 'sticky', top: 0, zIndex: 10 }}>
         <a href="/" style={{ color: '#C8FA5F', fontWeight: 800, fontSize: '1.2rem', textDecoration: 'none' }}>Vaga.ai</a>
         <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-          {step === 3 && <button onClick={() => window.print()} style={{ background: '#C8FA5F', color: '#0A0A0F', border: 'none', borderRadius: '100px', padding: '0.5rem 1.25rem', fontWeight: 700, cursor: 'pointer', fontSize: '0.875rem', fontFamily: 'system-ui' }}>⬇ Exportar PDF</button>}
+       {step === 3 && <button onClick={() => {
+  const panel = document.getElementById('ai-panel')
+  const nav = document.querySelector('nav') as HTMLElement
+  if (panel) (panel as HTMLElement).style.display = 'none'
+  if (nav) nav.style.display = 'none'
+  window.print()
+  setTimeout(() => {
+    if (panel) (panel as HTMLElement).style.display = 'flex'
+    if (nav) nav.style.display = 'flex'
+  }, 1000)
+}} style={{ background: '#C8FA5F', color: '#0A0A0F', border: 'none', borderRadius: '100px', padding: '0.5rem 1.25rem', fontWeight: 700, cursor: 'pointer', fontSize: '0.875rem', fontFamily: 'system-ui' }}>⬇ Exportar PDF</button>}
           <span style={{ color: '#7A7A8A', fontSize: '0.875rem' }}>Currículo com IA</span>
         </div>
       </nav>
