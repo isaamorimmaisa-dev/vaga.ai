@@ -66,6 +66,10 @@ export default function Home() {
         <div style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: '1.5rem', letterSpacing: '-0.02em' }}>Vaga<span style={{ color: '#C8FA5F' }}>.ai</span></div>
         <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
           <a href="#como-funciona" style={{ color: '#7A7A8A', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 500 }}>Como funciona</a>
+          <a href="#como-funciona" style={{ color: '#7A7A8A', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 500 }}>Como funciona</a>
+<a href="/precos" style={{ color: '#7A7A8A', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 500 }}>Preços</a>
+<a href="#faq" style={{ color: '#7A7A8A', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 500 }}>FAQ</a>
+<a href="/chat" style={{ color: '#7A7A8A', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 500 }}>Chat IA</a>
           <a href="#faq" style={{ color: '#7A7A8A', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 500 }}>FAQ</a>
           <a href="/chat" style={{ color: '#7A7A8A', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 500 }}>Chat IA</a>
           <a href="/curriculo" style={{ background: '#C8FA5F', color: '#0A0A0F', padding: '0.55rem 1.4rem', borderRadius: '100px', fontWeight: 700, fontSize: '0.875rem', textDecoration: 'none', transition: 'transform 0.2s, box-shadow 0.2s', boxShadow: '0 0 20px rgba(200,250,95,0.2)' }}>Criar currículo →</a>
