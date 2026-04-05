@@ -219,7 +219,7 @@ Retorne APENAS o JSON atualizado do currículo, sem explicações.`
           </div>
 
          <div id="ai-panel" style={{ width: '320px', background: '#13131A'...
-          <div style={{ width: '320px', background: '#13131A', borderLeft: '1px solid #1E1E2E', display: 'flex', flexDirection: 'column' }}>
+          id="ai-panel"=style={{ width: '320px', background: '#13131A', borderLeft: '1px solid #1E1E2E', display: 'flex', flexDirection: 'column' }}>
             <div style={{ padding: '1.5rem', borderBottom: '1px solid #1E1E2E' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
                 <div style={{ width: '32px', height: '32px', background: 'rgba(200,250,95,0.15)', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1rem' }}>✨</div>
