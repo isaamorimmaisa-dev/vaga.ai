@@ -260,11 +260,10 @@ Retorne APENAS o JSON atualizado do currículo, sem explicações.`
       )}
 
       <style>{`
-        @media print {
-  nav, .no-print, #ai-panel { display: none !important; }
-  body { background: white !important; margin: 0 !important; }
-  #resume-print { box-shadow: none !important; width: 100% !important; margin: 0 !important; }
-  * { -webkit-print-color-adjust: exact; }
+      @media print {
+  * { visibility: hidden; }
+  #resume-print, #resume-print * { visibility: visible; }
+  #resume-print { position: fixed; left: 0; top: 0; width: 100%; }
 }
           nav, .no-print { display: none !important; }
           body { background: white !important; }
