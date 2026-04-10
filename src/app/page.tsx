@@ -85,7 +85,9 @@ export default function Home() {
               Criar curriculo gratis
             </a>
             <a href="/chat" style={{ color: '#7A7A8A', padding: '0.9rem 2rem', borderRadius: '100px', fontWeight: 600, fontSize: '1rem', textDecoration: 'none', border: '1px solid #1E1E2E' }}>
-              Conversar com IA
+              <a href="https://pay.kiwify.com.br/xbqLBZE" style={{ color: '#0A0A0F', padding: '0.9rem 2rem', borderRadius: '100px', fontWeight: 700, fontSize: '1rem', textDecoration: 'none', border: '1px solid #C8FA5F', color: '#C8FA5F' }}>
+  Comprar acesso — R$15 →
+</a>
             </a>
           </div>
           <div style={{ display: 'flex', gap: '3rem', paddingTop: '3rem', borderTop: '1px solid #1E1E2E', flexWrap: 'wrap' }}>
