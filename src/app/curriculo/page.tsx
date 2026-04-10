@@ -227,6 +227,23 @@ Retorne APENAS o JSON atualizado do currículo, sem explicações.`
               )}
             </div>
           </div>
+          {step === 3 && (
+  <div style={{ position: 'fixed', bottom: '2rem', left: '2rem', zIndex: 50 }}>
+    <button onClick={() => {
+      const panel = document.getElementById('ai-panel')
+      const nav = document.querySelector('nav') as HTMLElement
+      if (panel) (panel as HTMLElement).style.display = 'none'
+      if (nav) nav.style.display = 'none'
+      window.print()
+      setTimeout(() => {
+        if (panel) (panel as HTMLElement).style.display = 'flex'
+        if (nav) nav.style.display = 'flex'
+      }, 1000)
+    }} style={{ background: '#C8FA5F', color: '#0A0A0F', border: 'none', borderRadius: '100px', padding: '1rem 2.5rem', fontWeight: 800, cursor: 'pointer', fontSize: '1rem', fontFamily: 'system-ui', boxShadow: '0 4px 30px rgba(200,250,95,0.4)' }}>
+      Exportar PDF
+    </button>
+  </div>
+)}
               <div id="ai-panel" style={{ width: '320px', background: '#13131A', borderLeft: '1px solid #1E1E2E', display: 'flex', flexDirection: 'column' }}>
         
             <div style={{ padding: '1.5rem', borderBottom: '1px solid #1E1E2E' }}>
